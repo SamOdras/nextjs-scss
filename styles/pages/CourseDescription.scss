@@ -1,0 +1,96 @@
+// Page Setup
+.course-description-breadcrumb {
+  margin: 0 auto;
+  width: 130.8rem;
+  padding: 4.65rem 4rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    width: 100%;
+  }
+}
+.course-description { 
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  grid-template-columns: 56% 40%;
+  grid-column-gap: 6rem;
+
+  padding: 4rem;
+  margin: 0 auto;
+  width: 130.8rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    width: 100%;
+  }
+
+  &__overview { 
+    grid-column: 1/2;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+
+    .title-1 { 
+      margin-bottom: 6rem;
+    }
+    .title-2 {
+      margin-bottom: 2.4rem;
+    }
+    & span {
+      margin-bottom: 100rem;
+    }
+  }
+
+  &__testimonial { 
+    grid-column: 1/2;
+    margin: 7.6rem 0 6rem 0;
+
+    .customer-wrapper { 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .customer {
+        display: grid;
+        grid-auto-columns: max-content max-content;
+        align-items: center;
+        gap: 1.6rem;
+
+        cursor: pointer;
+
+        .details {
+          grid-column: 2/3;
+          .bold {
+            font-weight: 700;
+            font-size: 1.8rem;
+            color: var(--color-primary-blue-dark);
+          }
+          .light {
+            font-size: 1.4rem;
+            color: var(--color-primary-blue-dark);
+          }
+        }
+      }
+    }
+  }
+
+  &__recomended { 
+    grid-column: 1/2;
+    margin-top: 4rem;
+  
+    .show-more { 
+      text-align: center;
+      font-weight: 600;
+      font-size: 2rem;
+      color: var(--color-primary-blue);
+      cursor: pointer;
+    }
+
+    .title-2 {
+      margin-bottom: 2rem;
+    }
+  }
+  &__checkout { 
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+  }
+}

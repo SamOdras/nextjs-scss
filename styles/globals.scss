@@ -1,0 +1,23 @@
+// Base
+@import "base";
+
+// Components
+@import "./components/Typography";
+@import "./components/Navbar";
+@import "./components/Cards";
+@import "./components/Collapsible";
+@import "./components/Buttons";
+@import "./components/Breadcrumb";
+@import "./components/Global";
+@import "./components/Footer";
+
+@import "./components/Landing/Hero";
+@import "./components/Landing/Course";
+@import "./components/Landing/Card";
+
+@import "./components/CourseDescription/Cards";
+@import "./components/CourseDescription/Modal";
+
+// Pages
+@import "./pages/CourseDescription";
+@import "./pages/Cart";

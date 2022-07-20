@@ -1,0 +1,122 @@
+.hero-wrapper {
+  padding: 6rem;
+  max-height: calc(100vh - 10.4rem);
+
+  .hero-sub {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #066bfb;
+  }
+
+  .hero-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.6rem;
+    color: #003fa5;
+    padding-right: 5rem;
+  }
+
+  .hero-button {
+    background: #066bfb;
+    border-radius: 0.4rem;
+    border: 0;
+    height: 5.8rem;
+    width: 16rem;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+
+  .hero-watch {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #066bfb;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+
+  .hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .hero-recorded-section {
+      position: absolute;
+      left: 0;
+      bottom: 4rem;
+      background: #ffffff;
+      box-shadow: 0px 14px 34px rgb(172 172 172 / 25%);
+      border-radius: 1.2rem;
+      padding: 1.6rem 7.5rem;
+
+      &-sub {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        color: #969696;
+      }
+
+      &-text {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #000000;
+      }
+
+      &-image {
+        width: 11rem;
+        height: 11rem;
+      }
+
+      &-icon {
+        position: absolute;
+        top: -1rem;
+        left: -1rem;
+      }
+    }
+
+    .hero-course-section {
+      position: absolute;
+      right: 0;
+      top: 10rem;
+      background: #ffffff;
+      box-shadow: 0px 14px 34px rgb(172 172 172 / 25%);
+      border-radius: 1.2rem;
+      padding: 1.5rem 6rem 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+
+      &-image {
+        padding-right: 1rem;
+      }
+
+      &-sub {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.2rem;
+        color: #030229;
+        opacity: 0.7;
+      }
+
+      &-text {
+        font-family: "Nunito";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        opacity: 0.7;
+      }
+    }
+  }
+}

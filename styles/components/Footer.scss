@@ -1,0 +1,47 @@
+.footer {
+  &-wrapper {
+    background: var(--color-primary-blue);
+    padding: 6rem;
+
+    hr {
+      border-top: 2px solid #ffffff;
+      margin-top: 5rem;
+    }
+
+    a {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.6rem;
+      color: #ffffff;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &-social-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+  }
+
+  &-menu-container {
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    padding-top: 5rem;
+  }
+
+  &-all-rights {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+  }
+}

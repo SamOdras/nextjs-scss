@@ -1,0 +1,21 @@
+.course {
+  &-wrapper {
+    padding: 6rem;
+  }
+
+  &-title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000000;
+  }
+
+  &-sub {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #000000;
+  }
+}

@@ -1,0 +1,58 @@
+.description-recomended {
+  &__details { 
+    grid-column: 2/3;
+
+    .description { 
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 2.24rem;
+
+      margin: .8rem 0 2rem 0;
+    }
+
+    .informations { 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .author {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+  }
+}
+
+.description-checkout {
+  position: sticky;
+  top: 0;
+
+  &__details {
+    margin: 1.6rem 0;
+    padding-top: 1.2rem;
+    border-top: 1px solid rgba(241, 242, 243, 1);
+    
+    .informations {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 1.2rem 0;
+
+      .light {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2rem;
+      }
+      .bold {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 2rem;
+      }
+    }
+  }
+}

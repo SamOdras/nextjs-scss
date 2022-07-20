@@ -1,0 +1,28 @@
+{
+  "name": "Next-Playground",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.7",
+    "animate.css": "^4.1.1",
+    "apexcharts": "^3.33.2",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.1",
+    "date-fns": "^2.28.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.53.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0"
+  }
+}

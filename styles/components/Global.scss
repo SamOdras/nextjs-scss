@@ -1,0 +1,341 @@
+// Font 
+.font {
+  &-size-12 {
+    font-size: 12px !important;
+  }
+
+  &-size-13 {
+    font-size: 13px !important;
+  }
+
+  &-size-14 {
+    font-size: 14px !important;
+  }
+
+  &-size-16 {
+    font-size: 16px !important;
+  }
+
+  &-size-18 {
+    font-size: 18px !important;
+  }
+
+  &-size-20 {
+    font-size: 20px !important;
+  }
+
+  &-size-22 {
+    font-size: 22px !important;
+  }
+
+  &-size-24 {
+    font-size: 24px !important;
+  }
+
+  &-size-26 {
+    font-size: 26px !important;
+  }
+
+  &-size-28 {
+    font-size: 28px !important;
+  }
+
+  &-size-30 {
+    font-size: 30px !important;
+  }
+
+  &-size-32 {
+    font-size: 32px !important;
+  }
+
+  &-size-34 {
+    font-size: 34px !important;
+  }
+
+  &-size-36 {
+    font-size: 36px !important;
+  }
+
+  &-size-48 {
+    font-size: 48px !important;
+  }
+
+  &-weight-400 {
+    font-weight: 400;
+  }
+
+  &-weight-500 {
+    font-weight: 500;
+  }
+
+  &-weight-600 {
+    font-weight: 600;
+  }
+
+  &-weight-700 {
+    font-weight: 700;
+  }
+
+  &-weight-800 {
+    font-weight: 800;
+  }
+
+  &-align-left {
+    text-align: left;
+  }
+
+  &-align-right {
+    text-align: right;
+  }
+
+  &-align-center {
+    text-align: center;
+  }
+}
+
+// Margin 
+.margin {
+  &-left-right-10 {
+    margin: 0px 10px;
+  }
+
+  &-minus-top-10 {
+    margin-top: -10px;
+  }
+
+  &-minus-top-20 {
+    margin-top: -20px;
+  }
+
+  &-minus-top-30 {
+    margin-top: -30px;
+  }
+
+  &-left-10 {
+    margin-left: 0.7vh;
+  }
+
+  &-right-10 {
+    margin-right: 0.7vh;
+  }
+
+  &-left-15 {
+    margin-left: 15px;
+  }
+
+  &-right-15 {
+    margin-right: 15px;
+  }
+
+  &-left-20 {
+    margin-left: 20px;
+  }
+
+  &-right-20 {
+    margin-right: 20px;
+  }
+
+  &-left-5 {
+    margin-left: 5px;
+  }
+
+  &-right-5 {
+    margin-right: 5px;
+  }
+
+  &-top-bottom-10 {
+    margin: 10px 0px;
+  }
+}
+
+// Button
+.button-secondary {
+  max-width: 140px;
+  width: 100%;
+  padding: 10px;
+  border: solid thin #eeeeee;
+  background: #f9f9f9;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+// Display
+.display {
+  &-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &-sticky {
+    position: sticky;
+    top: 0;
+  }
+
+  &-none {
+    display: none;
+  }
+
+  &-right {
+    float: right;
+  }
+  
+  &-left {
+    float: left;
+  }
+  
+  &-vertical-top {
+    vertical-align: top;
+  }
+    
+  &-vertical-middle {
+    vertical-align: middle;
+  }
+}
+
+// Border
+.border {
+  & {
+    border: solid thin #f1f2f3;
+    border-radius: 5px;
+    padding: 20px 25px;
+  }
+
+  &-right {
+    border-right: solid thin #f1f2f3;
+  }
+
+  &-top {
+    border-top: solid thin #f1f2f3;
+  }
+
+  &-left {
+    border-left: solid thin #f1f2f3;
+  }
+
+  &-cart-bottom {
+    border-bottom: solid #f1f2f3;
+    padding-bottom: 10px;
+  }
+}
+
+.card-border-bottom {
+  border-bottom: solid thin #f1f2f3;
+  padding-bottom: 30px;
+}
+
+// Input
+
+.input-checkbox {
+  transform: scale(1.5);
+  margin-left: 5px;
+}
+
+.input-text {
+  border: solid thin #f1f2f3 !important;
+}
+
+
+// width
+.width {
+  &-50 {
+    width: 50%;
+    margin: auto;
+  }
+
+  &-60 {
+    width: 60%;
+    margin: auto;
+  }
+
+  &-70 {
+    width: 70%;
+    margin: auto;
+  }
+
+  &-80 {
+    width: 80%;
+    margin: auto;
+  }
+
+  &-90 {
+    width: 90%;
+    margin: auto;
+  }
+
+  &-100 {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.max-width-285 {
+  max-width: 285px;
+  width: 100%;
+}
+
+.profile-small {
+  width: 35px !important;
+}
+
+// Color
+.color {
+  &-pink {
+    color: #ff579c;
+  }
+
+  &-light-grey {
+    color :#e4e4e4;
+  }
+
+  &-dark-grey {
+    color :#a3a3a3;
+  }
+
+  &-green {
+    color: #00c48c;
+  }
+}
+
+// Card
+.card {
+  &-cart-list {
+    padding: 20px 10px;
+    background: #fff;
+    box-shadow: 3px 5px 9px #f1f1f1;
+    border-radius: 10px;
+  }
+
+  &-cart-summary {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 3px 5px 9px #f1f1f1;
+    border-radius: 10px;
+  }
+}
+
+// Custom CSS
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+// Box
+.box {
+  &-alert {
+    width: 100%;
+    padding: 15px 25px;
+    background: #ffeaf3;
+    color: #ff579c;
+    border-radius: 10px;
+  }
+}
+
+// Payment Move later 
+.payment-check {
+  position: absolute;
+  margin-left: -17px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #00c48c;
+}

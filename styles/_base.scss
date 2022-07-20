@@ -1,0 +1,56 @@
+
+:root {
+  --color-primary-purple: #B400FF;
+  --color-primary-blue-light: rgba(6, 107, 251, 0.05);
+  --color-primary-blue-dark: rgba(42, 84, 195, 1);
+  --color-primary-blue: #066BFB;
+  --color-primary-blue-hover: #003FA5;
+
+  --color-text-dark: #000000;
+  --color-text-grey-dark: #9A9A9A;
+  --color-text-grey-light: #D3D3D3;
+  --color-text-light: #FFFFFF;
+  --color-text-disable: #969696;
+  
+  --color-element-disable: #F0F0F0;
+
+  --color-success: #09D8BF;
+  --color-warning: #FFD508;
+  --color-danger: #FF579C;
+
+}
+
+// 1em = 16px
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; (10px/16px) * 100 = 62.5%
+
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 56.25%; // 1 rem = 9px; (9px/16px) * 100 = 50%
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%; // 1 rem = 8px; (8px/16px) * 100 = 50%;
+  }
+
+}
+
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: var(--color-text-dark);
+}
